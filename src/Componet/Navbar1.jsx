@@ -134,10 +134,10 @@ function CollapsibleExample() {
                   <b>Personal</b>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item href="/investment">investments</Dropdown.Item>
-                  <Dropdown.Item href="/spend">spend</Dropdown.Item>
-                  <Dropdown.Item href="/aduit">audit</Dropdown.Item>
-                  <Dropdown.Item href="/save">save</Dropdown.Item>
+                  <Dropdown.Item href="/investment">Investments</Dropdown.Item>
+                  <Dropdown.Item href="/spend">Spend</Dropdown.Item>
+                  <Dropdown.Item href="/aduit">Audit</Dropdown.Item>
+                  <Dropdown.Item href="/save">Save</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
 
@@ -190,7 +190,6 @@ function CollapsibleExample() {
                 </Dropdown.Menu>
               </Dropdown> */}
               <NavDropdown.Item
-                href="#action/3.2"
                 style={{
                   border: "none",
                   color: " #000099",
@@ -200,7 +199,9 @@ function CollapsibleExample() {
                   backgroundColor: "transparent",
                 }}
               >
-                <b>FAQs</b>
+                <Link to="/faq">
+                  <b>FAQs</b>
+                </Link>
               </NavDropdown.Item>
             </div>
           </Nav>

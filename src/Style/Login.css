@@ -85,7 +85,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 35px;
-  background-color: rgb(57, 57, 219);
+  background-color: #000099;
 }
 
 .form input {

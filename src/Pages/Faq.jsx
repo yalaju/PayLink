@@ -1,7 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-const About = () => {
+const Faq = () => {
   return (
     <div
       style={{
@@ -9,19 +8,16 @@ const About = () => {
         width: "1150px",
         maxwidth: "1800px",
         margin: "0 auto",
-        color:'#000099'
+        color: "#000099",
       }}
     >
-      <h1>About Us</h1>
+      <h1>Frequently Asked Question</h1>
       <div
         style={{
           fontSize: "30px",
         }}
       >
-        <p>
-          PayLink offers solutions for managing your finances, increasing your
-          savings, and tracking your spending patterns.
-        </p>
+        <p>Is PayLink a registered bank?</p>
         <p>
           We are fostering a culture of saving and investing among the
           millennials and the increasing underrepresented middle class in
@@ -34,20 +30,8 @@ const About = () => {
           utilizing a traditional bank.
         </p>
       </div>
-      <div
-        style={{
-          fontSize: "30px",
-          // fontFamily: "cursive",
-        }}
-      >
-        <h1>Mission</h1>
-        <p>
-          To empower everyone with the tools they need to manage and
-          expand their finances.
-        </p>
-      </div>
     </div>
   );
-};
+}
 
-export default About;
+export default Faq

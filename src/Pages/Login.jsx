@@ -7,14 +7,14 @@ const Login = () => {
     <div className="loginbody">
       <div className="loginbody-L1">
         <form className="form">
-          <div className="form-text-h1">x
+          <div className="form-text-h1">
             <h1>
               Welcome back,
               <br /> Maryam
             </h1>
           </div>
           <div className="form-text-p">
-            <p>Pay yourself first.</p>
+            {/* <p>Pay yourself first.</p> */}
           </div>
           <div className="inputs">
             <input placeholder="username" type="text" /> <br /> <br />

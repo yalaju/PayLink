@@ -14,6 +14,7 @@ import Spend from './Pages/Spend';
 import Save from './Pages/Save'
 import Audlt from './Pages/Audit'
 import Futter from './Componet/Futter';
+import Faq from './Pages/Faq';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/spend' element={<Spend />} />
           <Route path='/save' element={<Save />} />
-          <Route path='/audlt' element={<Audlt/>}/>
+          <Route path='/audlt' element={<Audlt />} />
+          <Route path='/faq' element={<Faq/>}/>
         </Routes>
         <Futter/>
       </BrowserRouter>

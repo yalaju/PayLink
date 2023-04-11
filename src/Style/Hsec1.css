@@ -66,14 +66,14 @@
 @media (max-width: 991px) {
   .sec1-cont h1 {
     font-size: 300%;
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 }
 .sec1-cont P {
   /* font-size: 90px; */
   color: #000099;
   font-size: 25px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .sec1-img {
@@ -104,3 +104,31 @@
   border: 1px solid rgb(51, 17, 222);
   background-color: rgb(255, 255, 255);
 }
+
+.sec1flex{
+  padding-top: 30px;
+    /* border: 1px solid #7C20BE; */
+    /* color: rgb(14, 11, 11); */
+    /* width: 42%; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-top: 30px; */
+    /* background-color: #000099; */
+    gap: 10px;
+}
+.secflex-in1 img{
+  background-color: #000099;
+  border-radius: 10px;
+}
+.secflex-in2 img{
+  background-color: #000099;
+  border-radius: 10px;
+}
+
+@media (max-width:700px) {
+    .sec1flex{
+        flex-direction: column;
+        text-align: start;
+    }
+}
+

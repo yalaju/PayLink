@@ -46,6 +46,7 @@
   align-items: center;
   text-align: center;
 }
+
 @media (max-width: 991px) {
   .sec2-btn {
       /* padding-top: 0%; */
@@ -61,6 +62,16 @@
   border-radius: 20px;
   background-color: #33cc33;
   color: white;
+}
+.Sec2body button:hover {
+  border: 2px solid rgb(158, 20, 20);
+  /* align-items: center; */
+  border-style: none;
+  padding: 10px 15px;
+  /* margin-top: 20px; */
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #000099;
 }
 @media (max-width: 991px) {
   .Sec2body button {

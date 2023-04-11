@@ -1,6 +1,7 @@
 import React from 'react'
-import img2 from '../Images/Sec4img1.png'
+// import img2 from '../Images/Sec4img1.png'
 import img3 from '../Images/jaga.jpg'
+import imgf from '../Images/savemonny.jpg'
 
 const Spend = () => {
   return (
@@ -15,13 +16,13 @@ const Spend = () => {
             gap: "2%",
           }}
         >
-          <div className="sec6-img">
+          <div className="sec6-img" >
             <img
-              src={img2}
+              src={imgf}
               alt=""
               width="100%"
               height="100%"
-              style={{ borderRadius: "30px" }}
+              style={{ borderRadius: "30px" ,paddingTop:'80px'}}
             />
           </div>
           <div

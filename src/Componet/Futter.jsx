@@ -4,9 +4,9 @@ import "../Style/Hsec7.css"
 
 const Futter = () => {
   return (
-    <div>
+      <div style={{ margin:'0 auto', width:'80%', justifyContent:'center'}}>
       <div className="futter">
-        <div className="fut1">
+        {/* <div className="fut1">
           <p>
             <b>products</b>
           </p>
@@ -14,7 +14,7 @@ const Futter = () => {
           <p>Fiat</p>
           <p>Refill</p>
           <p>P2P</p>
-        </div>
+        </div> */}
 
         <div className="fut2">
           <p>
@@ -28,8 +28,8 @@ const Futter = () => {
           <p>
             <b>Contact</b>
           </p>
-          <p>hello@tradexpress.com</p>
-          <p>support@tradexpress.com</p>
+          <p>hello@paylink.com</p>
+          <p>support@paylink.com</p>
           <img src={img6} alt="" />
         </div>
 

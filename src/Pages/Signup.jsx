@@ -45,7 +45,7 @@ const Signup = () => {
               }}
             >
               {" "}
-              Login
+              Login....
             </Link>
           </div>
         </form>
