@@ -1,0 +1,134 @@
+.Sec2body {
+  background-color: #ede9ef;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 60%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  width: 1150px;
+  max-width: 1800px;
+  /* display: flex; */
+}
+@media (max-width: 991px) {
+  .Sec2body {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+.Sec2body h3 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.Sec2body h5 {
+  /* border: 1px solid red; */
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+  margin-bottom: 15px;
+}
+@media (max-width: 991px) {
+  .Sec2body h5 {
+      padding-top: 5%;
+  }
+}
+
+.sec2-btn {
+  /* border: 2px solid rgb(158, 20, 20); */
+  padding-top: 10px;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .sec2-btn {
+      /* padding-top: 0%; */
+  }
+}
+
+.Sec2body button {
+  border: 2px solid rgb(158, 20, 20);
+  /* align-items: center; */
+  border-style: none;
+  padding: 10px 15px;
+  /* margin-top: 20px; */
+  border-radius: 20px;
+  background-color: #33cc33;
+  color: white;
+}
+@media (max-width: 991px) {
+  .Sec2body button {
+      padding: 5% 20%;
+  }
+}
+
+.Sec2body img {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 23%;
+  /* max-width: 25%; */
+  padding-bottom: 75px;
+}
+/* .Sec5body img{
+    width: 90%;
+    padding: 10% 10%;
+} */
+
+/* @media (max-width:700px) {
+    .sec5img{
+        /* flex-direction: column; */
+/* width: 80%; */
+/* } */
+
+/* } */
+@media (max-width: 1177px) {
+  .Sec2body img {
+    width: 50%;
+    padding: 1% 10%;
+    padding-bottom: 5%;
+  }
+}
+@media (max-width: 700px) {
+  .Sec2body img {
+    width: 60%;
+    padding: 1% 10%;
+    padding-bottom: 5%;
+  }
+}
+@media (max-width: 580px) {
+  .Sec2body img {
+    width: 60%;
+    padding: 1% 10%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 586px) {
+  .Sec2body img {
+    width: 60%;
+    padding: 1% 10%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 388px) {
+  .Sec2body img {
+    width: 80%;
+    padding: 1% 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 414px) {
+  .Sec5body img {
+    width: 80%;
+    padding: 1% 5%;
+    padding-bottom: 5%;
+  }
+}
